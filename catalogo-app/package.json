@@ -1,0 +1,11 @@
+{
+  "name": "bazar-trini-catalogo",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-catalog.mjs",
+    "preview": "npx --yes serve . -p 4173"
+  },
+  "devDependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
