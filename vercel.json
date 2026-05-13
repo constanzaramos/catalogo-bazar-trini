@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/catalogo-app/", "permanent": false },
+    { "source": "/catalogo-app", "destination": "/catalogo-app/", "permanent": false }
+  ]
+}
