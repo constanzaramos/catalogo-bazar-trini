@@ -23,7 +23,7 @@
           height="72"
         />
         <div class="site-header__titles">
-          <h1 class="site-header__title">Bazar de la Trini</h1>
+          <h1 class="site-header__title"> El Bazar de la Trini</h1>
           <p class="site-header__subtitle">Catálogo de lanas — Rosario</p>
         </div>
       </div>
@@ -54,21 +54,32 @@
           ×
         </button>
         <div class="modal__layout">
-          <div class="modal__media">
-            <img class="modal__img" id="modal-img" alt="" />
+          <div class="modal__gallery">
+            <div class="modal__thumbs" id="modal-thumbs" aria-label="Miniaturas de colores"></div>
+            <div class="modal__media" id="modal-media">
+              <img class="modal__img" id="modal-img" alt="" />
+            </div>
           </div>
-          <div class="modal__body">
-            <p class="modal__badge" id="modal-categoria"></p>
+          <div class="modal__info">
             <h2 class="modal__title" id="modal-title"></h2>
-            <p class="modal__meta">
-              <span id="modal-codigo"></span>
-              · Color <span id="modal-color"></span>
+            <p class="modal__brand">
+              por <strong>El Bazar de la Trini</strong>
             </p>
             <p class="modal__precio" id="modal-precio"></p>
-            <h3 class="modal__section-title">Descripción</h3>
-            <p class="modal__text" id="modal-descripcion"></p>
-            <h3 class="modal__section-title">Detalles</h3>
-            <p class="modal__text" id="modal-detalles"></p>
+            <p class="modal__sku">
+              SKU <span id="modal-codigo"></span>
+            </p>
+            <p class="modal__color-label" id="modal-color-label"></p>
+            <div
+              class="modal__swatches"
+              id="modal-swatches"
+              role="listbox"
+              aria-label="Elegir color"
+            ></div>
+            <details class="modal__details" open>
+              <summary class="modal__details-summary">Información del producto</summary>
+              <div class="modal__details-body" id="modal-detalles"></div>
+            </details>
           </div>
         </div>
       </div>

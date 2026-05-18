@@ -19,15 +19,20 @@
   const modal = document.getElementById("detail-modal");
 
   const modalImg = document.getElementById("modal-img");
+  const modalMedia = document.getElementById("modal-media");
+  const modalThumbs = document.getElementById("modal-thumbs");
+  const modalSwatches = document.getElementById("modal-swatches");
   const modalTitle = document.getElementById("modal-title");
-  const modalCategoria = document.getElementById("modal-categoria");
   const modalCodigo = document.getElementById("modal-codigo");
-  const modalColor = document.getElementById("modal-color");
+  const modalColorLabel = document.getElementById("modal-color-label");
   const modalPrecio = document.getElementById("modal-precio");
-  const modalDescripcion = document.getElementById("modal-descripcion");
   const modalDetalles = document.getElementById("modal-detalles");
 
   let activeFilter = "todas";
+  /** @type {Item[]} */
+  let modalVariants = [];
+  /** @type {Item | null} */
+  let modalActive = null;
 
   function encodePath(rel) {
     return rel
@@ -45,6 +50,23 @@
   function filtered() {
     if (activeFilter === "todas") return data;
     return data.filter((d) => d.categoria === activeFilter);
+  }
+
+  function variantsForCategory(categoria) {
+    return data
+      .filter((d) => d.categoria === categoria)
+      .sort((a, b) => a.color - b.color || a.nombre.localeCompare(b.nombre, "es"));
+  }
+
+  function colorLabel(item) {
+    return "Color — " + item.color + " — " + item.nombre;
+  }
+
+  function formatPrecio(item) {
+    if (item.precio != null && item.precio !== "") {
+      return precioFmt.format(Number(item.precio));
+    }
+    return "Consultar en tienda";
   }
 
   function renderChips() {
@@ -82,7 +104,7 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "card";
-      btn.setAttribute("aria-label", "Ver detalle de " + item.nombre);
+      btn.setAttribute("aria-label", "Ver " + item.categoria + " — " + item.nombre);
 
       const media = document.createElement("div");
       media.className = "card__media";
@@ -137,54 +159,104 @@
     return span;
   }
 
+  function clearMedia() {
+    const ph = modalMedia.querySelector(".modal__placeholder-wrap");
+    if (ph) ph.remove();
+    modalImg.onload = null;
+    modalImg.onerror = null;
+    modalImg.hidden = true;
+    modalImg.removeAttribute("src");
+    modalImg.removeAttribute("alt");
+  }
+
+  function setMainImage(item) {
+    clearMedia();
+    if (!item.imagen) {
+      const wrap = document.createElement("div");
+      wrap.className = "modal__placeholder-wrap";
+      wrap.setAttribute("aria-hidden", "true");
+      wrap.textContent = "🧶";
+      modalMedia.appendChild(wrap);
+      return;
+    }
+
+    modalImg.hidden = false;
+    modalImg.alt = item.categoria + " — " + item.nombre;
+    modalImg.src = encodePath(item.imagen);
+    modalImg.onerror = function () {
+      modalImg.hidden = true;
+      modalImg.removeAttribute("src");
+      const wrap = document.createElement("div");
+      wrap.className = "modal__placeholder-wrap";
+      wrap.setAttribute("aria-hidden", "true");
+      wrap.textContent = "🧶";
+      modalMedia.appendChild(wrap);
+    };
+  }
+
+  function makePickerButton(item, kind) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className =
+      "color-picker color-picker--" +
+      kind +
+      (modalActive && modalActive.id === item.id ? " color-picker--active" : "");
+    btn.setAttribute("role", "option");
+    btn.setAttribute("aria-selected", modalActive && modalActive.id === item.id ? "true" : "false");
+    btn.setAttribute("aria-label", item.nombre + ", color " + item.color);
+    btn.title = item.nombre;
+
+    if (item.imagen) {
+      const img = document.createElement("img");
+      img.className = "color-picker__img";
+      img.alt = "";
+      img.src = encodePath(item.imagen);
+      img.loading = "lazy";
+      btn.appendChild(img);
+    } else {
+      const span = document.createElement("span");
+      span.className = "color-picker__fallback";
+      span.textContent = String(item.color);
+      btn.appendChild(span);
+    }
+
+    btn.addEventListener("click", () => selectVariant(item));
+    return btn;
+  }
+
+  function renderPickers() {
+    modalThumbs.innerHTML = "";
+    modalSwatches.innerHTML = "";
+
+    modalVariants.forEach((item) => {
+      modalThumbs.appendChild(makePickerButton(item, "thumb"));
+    });
+
+    modalVariants.forEach((item) => {
+      modalSwatches.appendChild(makePickerButton(item, "swatch"));
+    });
+  }
+
+  function selectVariant(item) {
+    modalActive = item;
+    modalTitle.textContent = item.categoria;
+    modalCodigo.textContent = item.codigo;
+    modalColorLabel.textContent = colorLabel(item);
+    modalPrecio.textContent = formatPrecio(item);
+    modalDetalles.textContent = item.detalles || "Sin información adicional.";
+
+    setMainImage(item);
+    renderPickers();
+  }
+
   function openModal(item) {
     modal.hidden = false;
     document.body.style.overflow = "hidden";
 
-    modalCategoria.textContent = item.categoria;
-    modalTitle.textContent = item.nombre;
-    modalCodigo.textContent = item.codigo;
-    modalColor.textContent = String(item.color);
-    modalDescripcion.textContent = item.descripcion;
-    modalDetalles.textContent = item.detalles;
-
-    if (item.precio != null && item.precio !== "") {
-      modalPrecio.textContent =
-        "Precio: " + precioFmt.format(Number(item.precio));
-    } else {
-      modalPrecio.textContent = "Precio: consultar en tienda";
-    }
-
-    const mediaParent = modalImg.parentElement;
-    const existingPh = mediaParent.querySelector(".modal__placeholder-wrap");
-    if (existingPh) existingPh.remove();
-
-    modalImg.onload = null;
-    modalImg.onerror = null;
-
-    if (item.imagen) {
-      modalImg.hidden = false;
-      modalImg.alt = item.nombre;
-      modalImg.src = encodePath(item.imagen);
-      modalImg.onerror = function () {
-        modalImg.hidden = true;
-        modalImg.removeAttribute("src");
-        const ph = document.createElement("div");
-        ph.className = "modal__placeholder-wrap";
-        ph.setAttribute("aria-hidden", "true");
-        ph.textContent = "🧶";
-        mediaParent.appendChild(ph);
-      };
-    } else {
-      modalImg.hidden = true;
-      modalImg.removeAttribute("src");
-      modalImg.removeAttribute("alt");
-      const ph = document.createElement("div");
-      ph.className = "modal__placeholder-wrap";
-      ph.setAttribute("aria-hidden", "true");
-      ph.textContent = "🧶";
-      mediaParent.appendChild(ph);
-    }
+    modalVariants = variantsForCategory(item.categoria);
+    selectVariant(
+      modalVariants.find((v) => v.id === item.id) || modalVariants[0] || item
+    );
 
     modal.querySelector(".modal__close").focus();
   }
@@ -192,6 +264,8 @@
   function closeModal() {
     modal.hidden = true;
     document.body.style.overflow = "";
+    modalVariants = [];
+    modalActive = null;
   }
 
   modal.querySelectorAll("[data-close-modal]").forEach((el) => {
@@ -203,7 +277,8 @@
   });
 
   if (!data.length) {
-    resultsCount.textContent = "No hay datos. Ejecutá npm run build:data en catalogo-app.";
+    resultsCount.textContent =
+      "No hay datos. Ejecutá npm run build:data en catalogo-app.";
   } else {
     renderChips();
     renderGrid();

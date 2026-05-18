@@ -8,7 +8,7 @@ window.CATALOGO_DATA = [
     "nombre": "Negro",
     "descripcion": "Chenille suave en tono «Negro». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/01/20260421_110655.png"
   },
   {
@@ -19,7 +19,7 @@ window.CATALOGO_DATA = [
     "nombre": "Rojo",
     "descripcion": "Chenille suave en tono «Rojo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/03/20260421_104552.png"
   },
   {
@@ -30,7 +30,7 @@ window.CATALOGO_DATA = [
     "nombre": "Arena",
     "descripcion": "Chenille suave en tono «Arena». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/09/20260421_112249.png"
   },
   {
@@ -41,7 +41,7 @@ window.CATALOGO_DATA = [
     "nombre": "Palo Rosa",
     "descripcion": "Chenille suave en tono «Palo Rosa». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/11/20260421_110308.png"
   },
   {
@@ -52,7 +52,7 @@ window.CATALOGO_DATA = [
     "nombre": "Blanco",
     "descripcion": "Chenille suave en tono «Blanco». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/12/20260421_110912.png"
   },
   {
@@ -63,7 +63,7 @@ window.CATALOGO_DATA = [
     "nombre": "Verde",
     "descripcion": "Chenille suave en tono «Verde». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/15/20260421_104621.png"
   },
   {
@@ -74,7 +74,7 @@ window.CATALOGO_DATA = [
     "nombre": "Morado",
     "descripcion": "Chenille suave en tono «Morado». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/16/20260421_105200.png"
   },
   {
@@ -85,7 +85,7 @@ window.CATALOGO_DATA = [
     "nombre": "Beige",
     "descripcion": "Chenille suave en tono «Beige». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/17/20260421_111634.png"
   },
   {
@@ -96,7 +96,7 @@ window.CATALOGO_DATA = [
     "nombre": "Púrpura",
     "descripcion": "Chenille suave en tono «Púrpura». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/18/20260421_110011.png"
   },
   {
@@ -107,7 +107,7 @@ window.CATALOGO_DATA = [
     "nombre": "Marrón",
     "descripcion": "Chenille suave en tono «Marrón». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/20/20260421_111454.png"
   },
   {
@@ -118,7 +118,7 @@ window.CATALOGO_DATA = [
     "nombre": "Azul",
     "descripcion": "Chenille suave en tono «Azul». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/24/20260421_104424.png"
   },
   {
@@ -129,7 +129,7 @@ window.CATALOGO_DATA = [
     "nombre": "Verde oliva",
     "descripcion": "Chenille suave en tono «Verde oliva». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/26/20260421_104355.png"
   },
   {
@@ -140,7 +140,7 @@ window.CATALOGO_DATA = [
     "nombre": "Rosa pastel",
     "descripcion": "Chenille suave en tono «Rosa pastel». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/27/20260421_110245.png"
   },
   {
@@ -151,7 +151,7 @@ window.CATALOGO_DATA = [
     "nombre": "Gris",
     "descripcion": "Chenille suave en tono «Gris». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/29/20260421_111126.png"
   },
   {
@@ -162,7 +162,7 @@ window.CATALOGO_DATA = [
     "nombre": "Azul brillante",
     "descripcion": "Chenille suave en tono «Azul brillante». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/31/20260421_104853.png"
   },
   {
@@ -173,7 +173,7 @@ window.CATALOGO_DATA = [
     "nombre": "Celeste",
     "descripcion": "Chenille suave en tono «Celeste». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/32/20260421_104517.png"
   },
   {
@@ -184,7 +184,7 @@ window.CATALOGO_DATA = [
     "nombre": "Rosado",
     "descripcion": "Chenille suave en tono «Rosado». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/34/20260421_110055.png"
   },
   {
@@ -195,7 +195,7 @@ window.CATALOGO_DATA = [
     "nombre": "Grafito",
     "descripcion": "Chenille suave en tono «Grafito». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
-    "detalles": "Ovillo chenille de tacto aterciopelado. Ideal para amigurumis, bufandas y prendas infantiles. Lavado suave a máquina.",
+    "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
     "imagen": "../Chenille/41/20260421_110834.png"
   },
   {
@@ -206,7 +206,7 @@ window.CATALOGO_DATA = [
     "nombre": "Blanco",
     "descripcion": "Lana hiper barata en tono «Blanco». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/01/20260410_132403 (1).png"
   },
   {
@@ -217,7 +217,7 @@ window.CATALOGO_DATA = [
     "nombre": "Fucsia",
     "descripcion": "Lana hiper barata en tono «Fucsia». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/03/20260410_131141.png"
   },
   {
@@ -228,7 +228,7 @@ window.CATALOGO_DATA = [
     "nombre": "Coral",
     "descripcion": "Lana hiper barata en tono «Coral». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/05/20260410_125942.png"
   },
   {
@@ -239,7 +239,7 @@ window.CATALOGO_DATA = [
     "nombre": "Naranjo",
     "descripcion": "Lana hiper barata en tono «Naranjo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/07/20260410_125220.png"
   },
   {
@@ -250,7 +250,7 @@ window.CATALOGO_DATA = [
     "nombre": "Amarillo",
     "descripcion": "Lana hiper barata en tono «Amarillo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/08/20260410_130754.png"
   },
   {
@@ -261,7 +261,7 @@ window.CATALOGO_DATA = [
     "nombre": "Azul",
     "descripcion": "Lana hiper barata en tono «Azul». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/12/20260410_131526.png"
   },
   {
@@ -272,7 +272,7 @@ window.CATALOGO_DATA = [
     "nombre": "Rosa Pastel",
     "descripcion": "Lana hiper barata en tono «Rosa Pastel». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/18/20260410_131433.png"
   },
   {
@@ -283,7 +283,7 @@ window.CATALOGO_DATA = [
     "nombre": "Rojo",
     "descripcion": "Lana hiper barata en tono «Rojo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/19/20260410_130840.png"
   },
   {
@@ -294,7 +294,7 @@ window.CATALOGO_DATA = [
     "nombre": "Café",
     "descripcion": "Lana hiper barata en tono «Café». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": null
   },
   {
@@ -305,7 +305,7 @@ window.CATALOGO_DATA = [
     "nombre": "Terracota",
     "descripcion": "Lana hiper barata en tono «Terracota». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/25/20260410_131724.png"
   },
   {
@@ -316,7 +316,7 @@ window.CATALOGO_DATA = [
     "nombre": "Palo Rosa",
     "descripcion": "Lana hiper barata en tono «Palo Rosa». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/27/20260410_132302.png"
   },
   {
@@ -327,7 +327,7 @@ window.CATALOGO_DATA = [
     "nombre": "Verde limón",
     "descripcion": "Lana hiper barata en tono «Verde limón». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/30/20260410_131259.png"
   },
   {
@@ -338,7 +338,7 @@ window.CATALOGO_DATA = [
     "nombre": "Lila",
     "descripcion": "Lana hiper barata en tono «Lila». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/32/20260410_131618.png"
   },
   {
@@ -349,7 +349,7 @@ window.CATALOGO_DATA = [
     "nombre": "Verde oliva",
     "descripcion": "Lana hiper barata en tono «Verde oliva». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/36/20260410_131817.png"
   },
   {
@@ -360,7 +360,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 40",
     "descripcion": "Lana hiper barata en tono «Color 40». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": null
   },
   {
@@ -371,7 +371,7 @@ window.CATALOGO_DATA = [
     "nombre": "Calipso",
     "descripcion": "Lana hiper barata en tono «Calipso». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/42/20260410_124957 (1).png"
   },
   {
@@ -382,7 +382,7 @@ window.CATALOGO_DATA = [
     "nombre": "Negro",
     "descripcion": "Lana hiper barata en tono «Negro». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/56/20260410_130913.png"
   },
   {
@@ -393,7 +393,7 @@ window.CATALOGO_DATA = [
     "nombre": "Crudo",
     "descripcion": "Lana hiper barata en tono «Crudo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1400,
-    "detalles": "Lana económica de uso general: mantas, ropa de bebé y proyectos que requieren mucho material.",
+    "detalles": "¡Calidad increíble al mejor precio! Esta lana es la aliada perfecta para quienes buscan maximizar su presupuesto sin sacrificar suavidad. Su composición 100% acrílica garantiza durabilidad y un cuidado sencillo, siendo totalmente antialérgica, ideal para prendas de vestir o accesorios en contacto con la piel.\n\nCon un rendimiento excepcional de 240 metros por ovillo, es la opción más rendidora para tus proyectos medianos y grandes.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso/Longitud: 100g / 240 mt.\nHerramientas recomendadas: Crochet y palillos N° 3 - 4.\nUso ideal: Chalecos, mantas livianas y gorros.",
     "imagen": "../Hiper Barata/68/20260410_130319.png"
   },
   {
@@ -404,7 +404,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 1",
     "descripcion": "Super gruesa en tono «Color 1». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/01/20260410_110919.png"
   },
   {
@@ -415,7 +415,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 3",
     "descripcion": "Super gruesa en tono «Color 3». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/03/20260410_111309.png"
   },
   {
@@ -426,7 +426,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 8",
     "descripcion": "Super gruesa en tono «Color 8». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/08/20260421_102442.png"
   },
   {
@@ -437,7 +437,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 10",
     "descripcion": "Super gruesa en tono «Color 10». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/10/20260410_113315.png"
   },
   {
@@ -448,7 +448,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 12",
     "descripcion": "Super gruesa en tono «Color 12». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/12/20260410_111634.png"
   },
   {
@@ -459,7 +459,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 15",
     "descripcion": "Super gruesa en tono «Color 15». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/15/20260410_113757.png"
   },
   {
@@ -470,7 +470,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 16",
     "descripcion": "Super gruesa en tono «Color 16». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/16/20260421_102932.png"
   },
   {
@@ -481,7 +481,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 18",
     "descripcion": "Super gruesa en tono «Color 18». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/18/20260410_110021.png"
   },
   {
@@ -492,7 +492,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 19",
     "descripcion": "Super gruesa en tono «Color 19». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/19/20260410_112006.png"
   },
   {
@@ -503,7 +503,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 20",
     "descripcion": "Super gruesa en tono «Color 20». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/20/20260410_110723.png"
   },
   {
@@ -514,7 +514,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 22",
     "descripcion": "Super gruesa en tono «Color 22». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/22/20260410_113156.png"
   },
   {
@@ -525,7 +525,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 25",
     "descripcion": "Super gruesa en tono «Color 25». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/25/20260410_111435.png"
   },
   {
@@ -536,7 +536,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 27",
     "descripcion": "Super gruesa en tono «Color 27». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/27/20260410_112903.png"
   },
   {
@@ -547,7 +547,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 36",
     "descripcion": "Super gruesa en tono «Color 36». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/36/20260421_102513.png"
   },
   {
@@ -558,7 +558,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 39",
     "descripcion": "Super gruesa en tono «Color 39». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/39/20260410_113355.png"
   },
   {
@@ -569,7 +569,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 45",
     "descripcion": "Super gruesa en tono «Color 45». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/45/20260410_110514.png"
   },
   {
@@ -580,7 +580,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 47",
     "descripcion": "Super gruesa en tono «Color 47». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/47/20260410_112512.png"
   },
   {
@@ -591,7 +591,7 @@ window.CATALOGO_DATA = [
     "nombre": "Color 56",
     "descripcion": "Super gruesa en tono «Color 56». Disponible en Bazar de la Trini (Rosario).",
     "precio": 1800,
-    "detalles": "Ovillo grueso para tejido rápido. Consulta en tienda las agujas o crochet recomendados para este grosor.",
+    "detalles": "Volumen y rapidez en cada tejido. Si buscas terminar tus proyectos en tiempo récord con un acabado imponente, la versión Super Gruesa es para ti. Mantiene todas las propiedades de nuestra línea económica: es antialérgica y 100% acrílica, pero con un grosor diseñado para destacar la textura de tus puntos.\n\nEs perfecta para piezas de invierno que requieren cuerpo y calidez inmediata, trabajando cómodamente con ganchillos o agujas de mayor numeración.\n\nComposición: 100% Acrílico (Antialérgico).\nPeso: 100g.\nHerramientas recomendadas: Crochet y palillos N° 5 - 7.\nUso ideal: Bufandas XL, mantas de sofá, abrigos y cuellos de invierno.",
     "imagen": "../Super Gruesa/56/20260410_110228.png"
   },
   {
@@ -604,5 +604,60 @@ window.CATALOGO_DATA = [
     "precio": 12000,
     "detalles": "Material indicado para macramé, tapices y decoración. Resistente y con buena definición de nudos.",
     "imagen": "../Macrame/20260421_113957.png"
+  },
+  {
+    "id": "S01",
+    "categoria": "Soft",
+    "codigo": "S01",
+    "color": 1,
+    "nombre": "Azul",
+    "descripcion": "Lana soft en tono «Azul». Disponible en Bazar de la Trini (Rosario).",
+    "precio": null,
+    "detalles": "¡Tan suave que parece una nube! Esta lana destaca por su increíble textura tipo peluche, diseñada para quienes buscan un acabado ultra esponjoso y tierno. Al ser una lana de gran grosor, es ideal para proyectos \"express\" que quedan con un volumen espectacular y una suavidad inigualable al contacto con la piel.\n\nEs la opción favorita para crear piezas que transmitan confort absoluto y un look moderno.\n\nTextura: Peluche / Soft-touch.\nRendimiento: 100g / 60 mt.\nHerramientas recomendadas: Palillos N° 8 - 10.\nUso ideal: Chalecos \"oversized\", cuellos gigantes, mantas de descanso y accesorios para el hogar que inviten al relax.",
+    "imagen": "../soft/1.png"
+  },
+  {
+    "id": "S02",
+    "categoria": "Soft",
+    "codigo": "S02",
+    "color": 2,
+    "nombre": "Beige",
+    "descripcion": "Lana soft en tono «Beige». Disponible en Bazar de la Trini (Rosario).",
+    "precio": null,
+    "detalles": "¡Tan suave que parece una nube! Esta lana destaca por su increíble textura tipo peluche, diseñada para quienes buscan un acabado ultra esponjoso y tierno. Al ser una lana de gran grosor, es ideal para proyectos \"express\" que quedan con un volumen espectacular y una suavidad inigualable al contacto con la piel.\n\nEs la opción favorita para crear piezas que transmitan confort absoluto y un look moderno.\n\nTextura: Peluche / Soft-touch.\nRendimiento: 100g / 60 mt.\nHerramientas recomendadas: Palillos N° 8 - 10.\nUso ideal: Chalecos \"oversized\", cuellos gigantes, mantas de descanso y accesorios para el hogar que inviten al relax.",
+    "imagen": "../soft/2.png"
+  },
+  {
+    "id": "S03",
+    "categoria": "Soft",
+    "codigo": "S03",
+    "color": 3,
+    "nombre": "Blanco",
+    "descripcion": "Lana soft en tono «Blanco». Disponible en Bazar de la Trini (Rosario).",
+    "precio": null,
+    "detalles": "¡Tan suave que parece una nube! Esta lana destaca por su increíble textura tipo peluche, diseñada para quienes buscan un acabado ultra esponjoso y tierno. Al ser una lana de gran grosor, es ideal para proyectos \"express\" que quedan con un volumen espectacular y una suavidad inigualable al contacto con la piel.\n\nEs la opción favorita para crear piezas que transmitan confort absoluto y un look moderno.\n\nTextura: Peluche / Soft-touch.\nRendimiento: 100g / 60 mt.\nHerramientas recomendadas: Palillos N° 8 - 10.\nUso ideal: Chalecos \"oversized\", cuellos gigantes, mantas de descanso y accesorios para el hogar que inviten al relax.",
+    "imagen": "../soft/3.png"
+  },
+  {
+    "id": "S04",
+    "categoria": "Soft",
+    "codigo": "S04",
+    "color": 4,
+    "nombre": "Rosado",
+    "descripcion": "Lana soft en tono «Rosado». Disponible en Bazar de la Trini (Rosario).",
+    "precio": null,
+    "detalles": "¡Tan suave que parece una nube! Esta lana destaca por su increíble textura tipo peluche, diseñada para quienes buscan un acabado ultra esponjoso y tierno. Al ser una lana de gran grosor, es ideal para proyectos \"express\" que quedan con un volumen espectacular y una suavidad inigualable al contacto con la piel.\n\nEs la opción favorita para crear piezas que transmitan confort absoluto y un look moderno.\n\nTextura: Peluche / Soft-touch.\nRendimiento: 100g / 60 mt.\nHerramientas recomendadas: Palillos N° 8 - 10.\nUso ideal: Chalecos \"oversized\", cuellos gigantes, mantas de descanso y accesorios para el hogar que inviten al relax.",
+    "imagen": "../soft/4.png"
+  },
+  {
+    "id": "S05",
+    "categoria": "Soft",
+    "codigo": "S05",
+    "color": 5,
+    "nombre": "Negro",
+    "descripcion": "Lana soft en tono «Negro». Disponible en Bazar de la Trini (Rosario).",
+    "precio": null,
+    "detalles": "¡Tan suave que parece una nube! Esta lana destaca por su increíble textura tipo peluche, diseñada para quienes buscan un acabado ultra esponjoso y tierno. Al ser una lana de gran grosor, es ideal para proyectos \"express\" que quedan con un volumen espectacular y una suavidad inigualable al contacto con la piel.\n\nEs la opción favorita para crear piezas que transmitan confort absoluto y un look moderno.\n\nTextura: Peluche / Soft-touch.\nRendimiento: 100g / 60 mt.\nHerramientas recomendadas: Palillos N° 8 - 10.\nUso ideal: Chalecos \"oversized\", cuellos gigantes, mantas de descanso y accesorios para el hogar que inviten al relax.",
+    "imagen": "../soft/5.png"
   }
 ];
