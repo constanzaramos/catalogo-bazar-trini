@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  /** @typedef {{ id: string, categoria: string, codigo: string, color: number, nombre: string, descripcion: string, precio: number | null, detalles: string, imagen: string | null }} Item */
+  /** @typedef {{ id: string, categoria: string, codigo: string, color: number, nombre: string, descripcion: string, precio: number | null, detalles: string, imagen: string | null, imagenSwatch?: string | null }} Item */
 
   /** @type {Item[]} */
   const data = window.CATALOGO_DATA || [];
@@ -194,6 +194,11 @@
     };
   }
 
+  function pickerImage(item, kind) {
+    if (kind === "swatch" && item.imagenSwatch) return item.imagenSwatch;
+    return item.imagen;
+  }
+
   function makePickerButton(item, kind) {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -206,11 +211,12 @@
     btn.setAttribute("aria-label", item.nombre + ", color " + item.color);
     btn.title = item.nombre;
 
-    if (item.imagen) {
+    const imgPath = pickerImage(item, kind);
+    if (imgPath) {
       const img = document.createElement("img");
       img.className = "color-picker__img";
       img.alt = "";
-      img.src = encodePath(item.imagen);
+      img.src = encodePath(imgPath);
       img.loading = "lazy";
       btn.appendChild(img);
     } else {
@@ -225,12 +231,14 @@
   }
 
   function renderPickers() {
-    modalThumbs.innerHTML = "";
+    if (modalThumbs) modalThumbs.innerHTML = "";
     modalSwatches.innerHTML = "";
 
-    modalVariants.forEach((item) => {
-      modalThumbs.appendChild(makePickerButton(item, "thumb"));
-    });
+    if (modalThumbs) {
+      modalVariants.forEach((item) => {
+        modalThumbs.appendChild(makePickerButton(item, "thumb"));
+      });
+    }
 
     modalVariants.forEach((item) => {
       modalSwatches.appendChild(makePickerButton(item, "swatch"));

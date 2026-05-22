@@ -115,6 +115,14 @@ function resolveImage(categoriaNorm, color) {
   return file ? `../${folderName}/${sub}/${file}` : null;
 }
 
+/** Imagen para círculos de color (Chenille: zoom.png por carpeta de color) */
+function resolveSwatchImage(categoriaNorm, color) {
+  if (categoriaNorm !== "Chenille") return null;
+  const sub = String(Number(color)).padStart(2, "0");
+  const zoomFile = path.join(REPO_ROOT, "Chenille", sub, "zoom.png");
+  return fs.existsSync(zoomFile) ? `../Chenille/${sub}/zoom.png` : null;
+}
+
 function descripcion(categoriaNorm, nombre, color) {
   const n = nombre || `Color ${color}`;
   const intro = {
@@ -135,9 +143,10 @@ const rows = XLSX.utils.sheet_to_json(sheet, { defval: null });
 
 function buildItem(categoria, codigo, color, nombre) {
   const imagen = resolveImage(categoria, color);
+  const imagenSwatch = resolveSwatchImage(categoria, color);
   const detalles = DETALLES_BY_CATEGORY[categoria] ?? "";
   const precio = PRECIO_BY_CATEGORY[categoria] ?? null;
-  return {
+  const item = {
     id: codigo,
     categoria,
     codigo,
@@ -148,6 +157,8 @@ function buildItem(categoria, codigo, color, nombre) {
     detalles,
     imagen,
   };
+  if (imagenSwatch) item.imagenSwatch = imagenSwatch;
+  return item;
 }
 
 const items = rows.map((row, idx) => {
