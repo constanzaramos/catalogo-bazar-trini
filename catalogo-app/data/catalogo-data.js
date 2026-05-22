@@ -20,7 +20,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Rojo». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/03/20260421_104552.png"
+    "imagen": "../Chenille/03/20260421_104552.png",
+    "imagenSwatch": "../Chenille/03/zoom.png"
   },
   {
     "id": "CH09",
@@ -31,7 +32,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Arena». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/09/20260421_112249.png"
+    "imagen": "../Chenille/09/20260421_112249.png",
+    "imagenSwatch": "../Chenille/09/zoom.png"
   },
   {
     "id": "CH11",
@@ -42,7 +44,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Palo Rosa». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/11/20260421_110308.png"
+    "imagen": "../Chenille/11/20260421_110308.png",
+    "imagenSwatch": "../Chenille/11/zoom.png"
   },
   {
     "id": "CH12",
@@ -53,7 +56,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Blanco». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/12/20260421_110912.png"
+    "imagen": "../Chenille/12/20260421_110912.png",
+    "imagenSwatch": "../Chenille/12/zoom.png"
   },
   {
     "id": "CH15",
@@ -64,7 +68,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Verde». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/15/20260421_104621.png"
+    "imagen": "../Chenille/15/20260421_104621.png",
+    "imagenSwatch": "../Chenille/15/zoom.png"
   },
   {
     "id": "CH16",
@@ -75,7 +80,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Morado». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/16/20260421_105200.png"
+    "imagen": "../Chenille/16/20260421_105200.png",
+    "imagenSwatch": "../Chenille/16/zoom.png"
   },
   {
     "id": "CH17",
@@ -86,7 +92,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Beige». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/17/20260421_111634.png"
+    "imagen": "../Chenille/17/20260421_111634.png",
+    "imagenSwatch": "../Chenille/17/zoom.png"
   },
   {
     "id": "CH18",
@@ -97,7 +104,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Púrpura». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/18/20260421_110011.png"
+    "imagen": "../Chenille/18/20260421_110011.png",
+    "imagenSwatch": "../Chenille/18/zoom.png"
   },
   {
     "id": "CH20",
@@ -108,7 +116,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Marrón». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/20/20260421_111454.png"
+    "imagen": "../Chenille/20/20260421_111454.png",
+    "imagenSwatch": "../Chenille/20/zoom.png"
   },
   {
     "id": "CH24",
@@ -119,7 +128,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Azul». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/24/20260421_104424.png"
+    "imagen": "../Chenille/24/20260421_104424.png",
+    "imagenSwatch": "../Chenille/24/zoom.png"
   },
   {
     "id": "CH26",
@@ -130,7 +140,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Verde oliva». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/26/20260421_104355.png"
+    "imagen": "../Chenille/26/20260421_104355.png",
+    "imagenSwatch": "../Chenille/26/zoom.png"
   },
   {
     "id": "CH27",
@@ -141,7 +152,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Rosa pastel». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/27/20260421_110245.png"
+    "imagen": "../Chenille/27/20260421_110245.png",
+    "imagenSwatch": "../Chenille/27/zoom.png"
   },
   {
     "id": "CH29",
@@ -152,7 +164,8 @@ window.CATALOGO_DATA = [
     "descripcion": "Chenille suave en tono «Gris». Disponible en Bazar de la Trini (Rosario).",
     "precio": 2400,
     "detalles": "Textura aterciopelada y brillo sutil. El Chenille es sinónimo de delicadeza. Su hebra tipo \"peluche\" ofrece un acabado extrasuave que encanta tanto a grandes como a chicos. Con un excelente metraje de 160 metros, es una lana versátil que combina un tacto lujoso con la practicidad de un tejido definido y prolijo.\n\nAl ser suave y ligera, es perfecta para piezas que requieren un acabado profesional y tierno a la vez.\n\nRendimiento: 100g / 160 mt.\nHerramientas recomendadas: Palillos N° 3 - 4.\nUso ideal: Amigurumis premium, ropa de bebé, mantas de apego y cojines decorativos.",
-    "imagen": "../Chenille/29/20260421_111126.png"
+    "imagen": "../Chenille/29/20260421_111126.png",
+    "imagenSwatch": "../Chenille/29/zoom.png"
   },
   {
     "id": "CH31",

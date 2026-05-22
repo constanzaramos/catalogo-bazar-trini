@@ -54,13 +54,11 @@
           ×
         </button>
         <div class="modal__layout">
-          <div class="modal__gallery">
-            <div class="modal__thumbs" id="modal-thumbs" aria-label="Miniaturas de colores"></div>
-            <div class="modal__media" id="modal-media">
-              <img class="modal__img" id="modal-img" alt="" />
-            </div>
+          <div class="modal__media">
+            <img class="modal__img" id="modal-img" alt="" />
           </div>
-          <div class="modal__info">
+          <div class="modal__body">
+            <p class="modal__badge" id="modal-categoria"></p>
             <h2 class="modal__title" id="modal-title"></h2>
             <p class="modal__brand">
               por <strong>El Bazar de la Trini</strong>
@@ -68,7 +66,7 @@
             <p class="modal__precio" id="modal-precio"></p>
             <p class="modal__sku">
               SKU <span id="modal-codigo"></span>
-            </p>
+          </p>
             <p class="modal__color-label" id="modal-color-label"></p>
             <div
               class="modal__swatches"
