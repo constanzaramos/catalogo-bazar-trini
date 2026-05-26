@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/catalogo-app/" }
+    { "source": "/", "destination": "/catalogo-app/links.html" },
+    { "source": "/catalogo", "destination": "/catalogo-app/index.html" }
   ]
 }

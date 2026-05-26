@@ -70,6 +70,16 @@ body {
   font-size: 0.95rem;
 }
 
+.site-header__back {
+  color: var(--teal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-header__back:hover {
+  text-decoration: underline;
+}
+
 .main {
   max-width: 1100px;
   margin: 0 auto;
