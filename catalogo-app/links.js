@@ -16,45 +16,58 @@
   $("link-email").href = cfg.email;
   $("link-catalogo").href = cfg.catalogo;
 
-  const container = $("hours-list");
-  const { galerias, nota } = cfg.horarios;
+  const container = $("locales-list");
 
-  galerias.forEach((galeria) => {
+  (cfg.locales || []).forEach(({ galeria, direccion, puntos }) => {
     const block = document.createElement("section");
-    block.className = "links-hours__galeria";
+    block.className = "links-locales__galeria";
 
     const title = document.createElement("h3");
-    title.className = "links-hours__galeria-title";
-    title.textContent = galeria.nombre;
+    title.className = "links-locales__galeria-title";
+    title.textContent = galeria;
     block.appendChild(title);
 
-    galeria.locales.forEach((local) => {
-      const localEl = document.createElement("div");
-      localEl.className = "links-hours__local";
+    const addr = document.createElement("p");
+    addr.className = "links-locales__direccion";
+    addr.textContent = direccion;
+    block.appendChild(addr);
 
-      const localTitle = document.createElement("h4");
-      localTitle.className = "links-hours__local-title";
-      localTitle.textContent = local.nombre;
-      localEl.appendChild(localTitle);
+    const query = encodeURIComponent(`${direccion}, Rosario`);
+    const mapa = document.createElement("a");
+    mapa.className = "links-locales__mapa";
+    mapa.href = `https://www.google.com/maps/search/?api=1&query=${query}`;
+    mapa.target = "_blank";
+    mapa.rel = "noopener noreferrer";
+    mapa.textContent = "Ver en mapa";
+    block.appendChild(mapa);
+
+    puntos.forEach(({ nombre, horarios }) => {
+      const punto = document.createElement("div");
+      punto.className = "links-locales__punto";
+
+      const puntoTitle = document.createElement("h4");
+      puntoTitle.className = "links-locales__punto-title";
+      puntoTitle.textContent = nombre;
+      punto.appendChild(puntoTitle);
 
       const list = document.createElement("ul");
-      list.className = "links-hours__list";
-      local.filas.forEach(({ dias, horas }) => {
+      list.className = "links-locales__horarios";
+      horarios.forEach(({ dias, horas }) => {
         const li = document.createElement("li");
         li.innerHTML = `<strong>${dias}</strong><span>${horas}</span>`;
         list.appendChild(li);
       });
-      localEl.appendChild(list);
-      block.appendChild(localEl);
+      punto.appendChild(list);
+      block.appendChild(punto);
     });
 
     container.appendChild(block);
   });
 
-  if (nota) {
+  if (cfg.notaHorarios) {
     const foot = document.createElement("p");
-    foot.className = "links-hours__nota";
-    foot.textContent = nota;
+    foot.className = "links-locales__nota";
+    foot.textContent = cfg.notaHorarios;
     container.appendChild(foot);
   }
 })();

@@ -12,52 +12,62 @@ window.LINKS_CONFIG = {
 
   catalogo: "https://catalogo-bazar-trini.vercel.app/catalogo-app/",
 
-  horarios: {
-    galerias: [
-      {
-        nombre: "Galería Adauy",
-        locales: [
-          {
-            nombre: "Local 14",
-            filas: [
-              { dias: "Lunes a viernes", horas: "10:15 – 18:45" },
-              { dias: "Sábado", horas: "10:30 – 14:30" },
-            ],
-          },
-          {
-            nombre: "Local 19",
-            filas: [
-              { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
-              { dias: "Sábado", horas: "10:00 – 14:00" },
-            ],
-          },
-        ],
-      },
-      {
-        nombre: "Galería Palet",
-        locales: [
-          {
-            nombre: "Local 15",
-            filas: [
-              { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
-              { dias: "Sábado", horas: "10:00 – 14:00" },
-            ],
-          },
-        ],
-      },
-      {
-        nombre: "Galería Rialto",
-        locales: [
-          {
-            nombre: "Local 10",
-            filas: [
-              { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
-              { dias: "Sábado", horas: "10:00 – 14:00" },
-            ],
-          },
-        ],
-      },
-    ],
-    nota: "Domingo: cerrado",
-  },
+  /** Cada galería: dirección + locales con horarios propios */
+  locales: [
+    {
+      galeria: "Galería Adauy",
+      direccion: "Aníbal Pinto 565",
+      puntos: [
+        {
+          nombre: "Local 14",
+          horarios: [
+            { dias: "Lunes a viernes", horas: "10:15 – 18:45" },
+            { dias: "Sábado", horas: "10:30 – 14:30" },
+          ],
+        },
+        {
+          nombre: "Local 19",
+          horarios: [
+            { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
+            { dias: "Sábado", horas: "10:00 – 14:00" },
+          ],
+        },
+      ],
+    },
+    {
+      galeria: "Galería Rialto",
+      direccion: "Aníbal Pinto 560",
+      puntos: [
+        {
+          nombre: "Local 9",
+          horarios: [
+            { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
+            { dias: "Sábado", horas: "10:00 – 14:00" },
+          ],
+        },
+        {
+          nombre: "Local 10",
+          horarios: [
+            { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
+            { dias: "Sábado", horas: "10:00 – 14:00" },
+          ],
+        },
+      ],
+    },
+    {
+      galeria: "Galería Palet",
+      direccion: "Barros Arana 653",
+      puntos: [
+        {
+          nombre: "Local 15",
+          horarios: [
+            { dias: "Lunes a viernes", horas: "10:00 – 18:30" },
+            { dias: "Sábado", horas: "10:00 – 14:00" },
+          ],
+        },
+      ],
+    },
+  ],
+
+  notaHorarios: "Domingo: cerrado",
 };
