@@ -86,47 +86,11 @@ body {
   padding: 1.5rem 1.25rem 3rem;
 }
 
-.filters {
-  margin-bottom: 1.25rem;
-}
-
-.filters__label {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--teal);
-  margin-bottom: 0.5rem;
-}
-
-.filters__chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.chip {
-  border: 2px solid #cfe7ee;
-  background: var(--card);
-  color: var(--ink);
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 0.45rem 0.9rem;
-  border-radius: 999px;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
-}
-
-.chip:hover {
-  border-color: var(--teal);
-}
-
-.chip--active {
-  background: var(--teal);
-  border-color: var(--teal);
-  color: #fff;
+.catalog-intro {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 .results-count {
@@ -139,6 +103,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.1rem;
+}
+
+.grid--categorias {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
 }
 
 .card {
@@ -191,22 +160,9 @@ body {
   padding: 0.85rem 1rem 1rem;
 }
 
-.card__badge {
-  display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--pink);
-  background: rgba(196, 69, 145, 0.1);
-  padding: 0.2rem 0.45rem;
-  border-radius: 6px;
-  margin: 0 0 0.35rem;
-}
-
-.card__name {
+.card--categoria .card__name {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--teal);
 }
@@ -215,6 +171,33 @@ body {
   margin: 0.35rem 0 0;
   font-size: 0.82rem;
   color: var(--muted);
+}
+
+.card__precio {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.modal__badge {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--pink);
+  background: rgba(196, 69, 145, 0.1);
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+}
+
+.modal__descripcion {
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 /* Modal — ficha de producto */
@@ -322,6 +305,16 @@ body {
   background: #fff;
   margin-left: 0.75rem;
   margin-right: 0.5rem;
+  overflow: hidden;
+  min-height: 280px;
+}
+
+.modal__media--zoomable {
+  cursor: zoom-in;
+}
+
+.modal__media--zooming {
+  cursor: crosshair;
 }
 
 .modal__img {
@@ -329,6 +322,12 @@ body {
   max-height: 420px;
   object-fit: contain;
   display: block;
+  transition: transform 0.12s ease-out;
+  will-change: transform;
+}
+
+.modal__media--zooming .modal__img {
+  max-height: none;
 }
 
 .modal__info {

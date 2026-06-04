@@ -10,7 +10,7 @@ window.LINKS_CONFIG = {
   whatsapp: "https://wa.me/56966308223",
   email: "mailto:contacto@elbazardelatrini.com",
 
-  catalogo: "https://catalogo-bazar-trini.vercel.app/catalogo-app/",
+  catalogo: "index.html",
 
   /** Cada galería: dirección + locales con horarios propios */
   locales: [

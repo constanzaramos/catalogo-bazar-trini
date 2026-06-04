@@ -1,7 +1,7 @@
 {
   "redirects": [
     { "source": "/", "destination": "/catalogo-app/links.html", "permanent": false },
-    { "source": "/catalogo-app", "destination": "/catalogo-app/links.html", "permanent": false },
+    { "source": "/catalogo-app", "destination": "/catalogo-app/index.html", "permanent": false },
     { "source": "/catalogo", "destination": "/catalogo-app/index.html", "permanent": false }
   ]
 }

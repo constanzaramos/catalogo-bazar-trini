@@ -90,6 +90,35 @@ function pickImageFile(dir) {
   return scored[0].f;
 }
 
+/** Super Gruesa: usar solo fotos con 1 ovillo (sufijo "(1)" o recorte Photoroom). */
+function pickImageFileSuperGruesa(dir) {
+  if (!fs.existsSync(dir)) return null;
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => /\.(png|jpe?g|webp)$/i.test(f));
+  if (!files.length) return null;
+
+  const oneOvillo = files.filter((f) => / \(1\)\./i.test(f));
+  if (oneOvillo.length) {
+    oneOvillo.sort((a, b) => a.localeCompare(b));
+    return oneOvillo[0];
+  }
+
+  const photoroom = files.filter((f) => /photoroom/i.test(f));
+  if (photoroom.length) {
+    photoroom.sort((a, b) => a.localeCompare(b));
+    return photoroom[0];
+  }
+
+  const single = files.filter((f) => !/ \(\d+\)\./i.test(f));
+  if (single.length) {
+    single.sort((a, b) => a.localeCompare(b));
+    return single[0];
+  }
+
+  return files.sort((a, b) => a.localeCompare(b))[0];
+}
+
 function resolveImage(categoriaNorm, color) {
   const folderName = FOLDER_BY_CATEGORY[categoriaNorm];
   if (!folderName) return null;
@@ -111,16 +140,88 @@ function resolveImage(categoriaNorm, color) {
 
   const sub = String(Number(color)).padStart(2, "0");
   const colorDir = path.join(REPO_ROOT, folderName, sub);
-  const file = pickImageFile(colorDir);
+  const pick =
+    folderName === "Super Gruesa" ? pickImageFileSuperGruesa : pickImageFile;
+  const file = pick(colorDir);
   return file ? `../${folderName}/${sub}/${file}` : null;
 }
 
-/** Imagen para círculos de color (Chenille: zoom.png por carpeta de color) */
+/** Imagen para círculos de color (zoom.png o archivo con "zoom" en la carpeta del color) */
 function resolveSwatchImage(categoriaNorm, color) {
-  if (categoriaNorm !== "Chenille") return null;
+  const folderName = FOLDER_BY_CATEGORY[categoriaNorm];
+  if (!folderName || folderName === "Macrame" || folderName === "soft") return null;
+
   const sub = String(Number(color)).padStart(2, "0");
-  const zoomFile = path.join(REPO_ROOT, "Chenille", sub, "zoom.png");
-  return fs.existsSync(zoomFile) ? `../Chenille/${sub}/zoom.png` : null;
+  const colorDir = path.join(REPO_ROOT, folderName, sub);
+  if (!fs.existsSync(colorDir)) return null;
+
+  for (const name of ["zoom.png", "zoom.jpg", "zoom.jpeg", "zoom.webp"]) {
+    if (fs.existsSync(path.join(colorDir, name))) {
+      return `../${folderName}/${sub}/${name}`;
+    }
+  }
+
+  const zoomLike = fs
+    .readdirSync(colorDir)
+    .filter((f) => /zoom/i.test(f) && /\.(png|jpe?g|webp)$/i.test(f))
+    .sort((a, b) => a.localeCompare(b));
+
+  if (zoomLike.length) {
+    return `../${folderName}/${sub}/${zoomLike[0]}`;
+  }
+
+  return null;
+}
+
+/** Ruta estándar zoom.png (aunque el archivo aún no exista en disco) */
+/** Portada de categoría: archivo con "portada" en el nombre (carpeta raíz o subcarpetas) */
+function resolvePortadaImage(categoriaNorm) {
+  const folderName = FOLDER_BY_CATEGORY[categoriaNorm];
+  if (!folderName) return null;
+
+  const dir = path.join(REPO_ROOT, folderName);
+  if (!fs.existsSync(dir)) return null;
+
+  const relBase =
+    folderName === "soft"
+      ? "../soft"
+      : folderName === "Macrame"
+        ? "../Macrame"
+        : `../${folderName}`;
+
+  const portadaFiles = (folderPath) =>
+    fs
+      .readdirSync(folderPath, { withFileTypes: true })
+      .filter(
+        (e) =>
+          e.isFile() &&
+          /portada/i.test(e.name) &&
+          /\.(png|jpe?g|webp)$/i.test(e.name)
+      )
+      .map((e) => e.name)
+      .sort((a, b) => a.localeCompare(b));
+
+  const rootMatches = portadaFiles(dir);
+  if (rootMatches.length) return `${relBase}/${rootMatches[0]}`;
+
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const subMatches = portadaFiles(path.join(dir, entry.name));
+    if (subMatches.length) {
+      return `${relBase}/${entry.name}/${subMatches[0]}`;
+    }
+  }
+
+  return null;
+}
+
+function defaultSwatchPath(categoriaNorm, color) {
+  const folderName = FOLDER_BY_CATEGORY[categoriaNorm];
+  if (!folderName || folderName === "Macrame" || folderName === "soft") return null;
+  const sub = String(Number(color)).padStart(2, "0");
+  const colorDir = path.join(REPO_ROOT, folderName, sub);
+  if (!fs.existsSync(colorDir)) return null;
+  return `../${folderName}/${sub}/zoom.png`;
 }
 
 function descripcion(categoriaNorm, nombre, color) {
@@ -143,7 +244,8 @@ const rows = XLSX.utils.sheet_to_json(sheet, { defval: null });
 
 function buildItem(categoria, codigo, color, nombre) {
   const imagen = resolveImage(categoria, color);
-  const imagenSwatch = resolveSwatchImage(categoria, color);
+  const imagenSwatch =
+    resolveSwatchImage(categoria, color) ?? defaultSwatchPath(categoria, color);
   const detalles = DETALLES_BY_CATEGORY[categoria] ?? "";
   const precio = PRECIO_BY_CATEGORY[categoria] ?? null;
   const item = {
@@ -180,10 +282,26 @@ if (!items.some((i) => i.categoria === "Soft")) {
   }
 }
 
+const categoriasEnCatalogo = [...new Set(items.map((i) => i.categoria))];
+const portadas = {};
+for (const cat of categoriasEnCatalogo) {
+  const portada = resolvePortadaImage(cat);
+  if (portada) portadas[cat] = portada;
+}
+
 const json = JSON.stringify(items, null, 2);
+const portadasJson = JSON.stringify(portadas, null, 2);
 const banner = `/* Generado por npm run build:data — no editar a mano */\n`;
-const body = `${banner}window.CATALOGO_DATA = ${json};\n`;
+const body =
+  `${banner}window.CATALOGO_PORTADAS = ${portadasJson};\n` +
+  `window.CATALOGO_DATA = ${json};\n`;
 
 fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
 fs.writeFileSync(OUT_FILE, body, "utf8");
 console.log("Escrito:", OUT_FILE, "(" + items.length + " ítems)");
+console.log(
+  "Portadas:",
+  Object.keys(portadas).length
+    ? Object.entries(portadas).map(([k, v]) => k + " → " + v).join(", ")
+    : "ninguna (agregá archivos *portada* en cada carpeta de lana)"
+);

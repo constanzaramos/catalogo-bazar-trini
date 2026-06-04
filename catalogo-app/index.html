@@ -33,14 +33,12 @@
     </header>
 
     <main class="main">
-      <section class="filters" aria-label="Filtrar por tipo de lana">
-        <span class="filters__label">Tipo de lana</span>
-        <div class="filters__chips" id="filter-chips"></div>
-      </section>
-
+      <p class="catalog-intro">
+        Elegí un tipo de lana para ver colores, precio y detalles.
+      </p>
       <p class="results-count" id="results-count" aria-live="polite"></p>
 
-      <div class="grid" id="catalog-grid"></div>
+      <div class="grid grid--categorias" id="catalog-grid"></div>
     </main>
 
     <div
@@ -57,20 +55,33 @@
           ×
         </button>
         <div class="modal__layout">
-          <div class="modal__media">
-            <img class="modal__img" id="modal-img" alt="" />
+          <div class="modal__gallery">
+            <div
+              class="modal__thumbs"
+              id="modal-thumbs"
+              role="listbox"
+              aria-label="Vista previa por color"
+            ></div>
+            <div
+              class="modal__media"
+              id="modal-media"
+              title="Pasá el cursor sobre la imagen para ampliar"
+            >
+              <img class="modal__img" id="modal-img" alt="" hidden />
+            </div>
           </div>
-          <div class="modal__body">
+          <div class="modal__info">
             <p class="modal__badge" id="modal-categoria"></p>
             <h2 class="modal__title" id="modal-title"></h2>
+            <p class="modal__descripcion" id="modal-descripcion"></p>
             <p class="modal__brand">
               por <strong>El Bazar de la Trini</strong>
             </p>
             <p class="modal__precio" id="modal-precio"></p>
             <p class="modal__sku">
               SKU <span id="modal-codigo"></span>
-          </p>
-            <p class="modal__color-label" id="modal-color-label"></p>
+            </p>
+            <p class="modal__color-label" id="modal-color-label">Colores disponibles</p>
             <div
               class="modal__swatches"
               id="modal-swatches"
